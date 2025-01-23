@@ -1,0 +1,2 @@
+my @array = (1, 2, 3);my $size = @array; # Get array size
+if (3 < $size) {  my $element = $array[3]; # Access element if index is within bounds print $element; } else { print "Index out of bounds!"; # Handle out-of-bounds access }
